@@ -32,7 +32,7 @@ labels[40:, :] = 2.0	# last 20 for laksh (2)
 data = np.concatenate([f_01, f_02, f_03])	# (60, 7500)
 print (data.shape, labels.shape)	# (60, 1)
 
-# the distance and knn functions we defined earlier
+# the distance and knn functions 
 def distance(x1, x2):
     return np.sqrt(((x1-x2)**2).sum())
 
