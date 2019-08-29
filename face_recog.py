@@ -9,9 +9,9 @@ face_cas = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 # load the data from the numpy matrices and convert to linear vectors
-f_01 = np.load('face_01.npy').reshape((20, 50*50*3))	# Shubham
-f_02 = np.load('face_02.npy').reshape((20, 50*50*3))	# Prateek
-f_03 = np.load('face_03.npy').reshape((20, 50*50*3))	# Laksh
+f_01 = np.load('face_01.npy').reshape((20, 50*50*3))	
+f_02 = np.load('face_02.npy').reshape((20, 50*50*3))	
+f_03 = np.load('face_03.npy').reshape((20, 50*50*3))	
 
 print (f_01.shape, f_02.shape, f_03.shape)
 
